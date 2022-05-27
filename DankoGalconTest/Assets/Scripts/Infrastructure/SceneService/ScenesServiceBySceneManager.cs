@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Galcon.Infrastructure.SceneService
 {
-    internal sealed class SceneServiceBySceneManager : ISceneService
+    internal sealed class ScenesServiceBySceneManager : IScenesService
     {
         public Task LoadSceneAsync(string sceneName, LoadSceneMode mode)
         {

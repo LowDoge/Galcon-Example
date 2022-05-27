@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 namespace Galcon.Core
 {
-    public interface ISceneService
+    public interface IScenesService
     {
         Task LoadSceneAsync([NotNull] string sceneName, LoadSceneMode mode = LoadSceneMode.Single);
     }
